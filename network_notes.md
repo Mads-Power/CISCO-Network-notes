@@ -129,34 +129,42 @@ The classic: Please Do Not Throw Sausage Pizza Away
 /24 lots of networks but not alot of hosts per network
 **Class A**
 
+- **the default subnetmask is /8**
 - assigned to networks with a large number of hosts
 - The high-order(First) bit in a class A address is always set to zero
-- the default subnetmask is /8
+
 - valid network addresses range from 1.0.0.0 to 126.0.0.0 /8
 - it allows for 126 networks and 16,777,214 host per network
-  **Class B and C**
-  _Class B_
 
-  - Class B addresses are assigned to medium-sized to large-sized networks.
-  - the two high order bits in class B address are always set to binary 1 0
-  - the default subnet mask is /16
-  - valid network addresses range from 128.0.0.0 to 191.255.0.0 /16
-  - This allows for 16,384 networks and 65,534 hosts per network
-  - this would also be subnetted in a real worl environment
-    _Class C_
-  - Are used for small networks
-  - The three high-order bits in a class C address are always set to binary 1 1 0.
-  - The default subnetmask is /24
-  - valid nework addresses range from 192.0.0.0 to 223.255.255.0/24
-  - This allows for 2,097,152 networks and 254 hosts per network.
-  - This could be allocated as is for a real world network, or subnetted into smaller subnets.
-    **Class D and E**
-    _Class D_
-  - reserved for multicast addresses
-  - the four high-order bits in the class D address are always set to binary 1 1 1 0
-  - These addresses are not allocated to hosts and there is no default subnetmask
-  - address range: 224.0.0.0 to 239.255.255.255
+**Class B and C**
+_Class B_
 
-  _Class E_
+- **the default subnet mask is /16**
+- Class B addresses are assigned to medium-sized to large-sized networks.
+- the two high order bits in class B address are always set to binary 1 0
 
-  - experemental and reserved for future use
+- valid network addresses range from 128.0.0.0 to 191.255.0.0 /16
+- This allows for 16,384 networks and 65,534 hosts per network
+- this would also be subnetted in a real worl environment
+  _Class C_
+- **The default subnetmask is /24**
+- Are used for small networks
+- The three high-order bits in a class C address are always set to binary 1 1 0.
+
+- valid nework addresses range from 192.0.0.0 to 223.255.255.0/24
+- This allows for 2,097,152 networks and 254 hosts per network.
+- This could be allocated as is for a real world network, or subnetted into smaller subnets.
+
+**Class D and E**
+_Class D_
+
+- reserved for multicast addresses
+- the four high-order bits in the class D address are always set to binary 1 1 1 0
+- These addresses are not allocated to hosts and there is no default subnetmask
+- address range: 224.0.0.0 to 239.255.255.255
+
+_Class E_
+
+- experemental and reserved for future use
+
+![alt text](assets/IP_classes.png)
