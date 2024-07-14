@@ -81,21 +81,24 @@ The classic: Please Do Not Throw Sausage Pizza Away
   - `ctrl+a` move to start of line
   - if you are at the wrong command level you will also get a _"invalid input at '^' marker"_ , if you get it you can write `do` first
   - command commands: `do show ip interface brief`, ` do show running-config`
+  - Exit = go up one
 
-  ## OSI Layer 4 - Transport layer
+- End = go out to priv exec mode
 
-  - the transport layer provides transparent transfer of data between hosts and provides end-to end error recovery and flow control.
-  - flow control is the process of adjusting the flow of data from the sender to ensure the reciving host can handle all of it.
-  - session multiplexing , multiple sessions
-  - TCP: connection oriented,
+## OSI Layer 4 - Transport layer
 
-  ## OSI Layer 3 - Network
+- the transport layer provides transparent transfer of data between hosts and provides end-to end error recovery and flow control.
+- flow control is the process of adjusting the flow of data from the sender to ensure the reciving host can handle all of it.
+- session multiplexing , multiple sessions
+- TCP: connection oriented,
 
-  - The network layer is responsible for routing packets to their destination and for Quality of service
-  - IP is the bestknown Layer 3 protocol
-  - it is a connectionless protocol with no acknowledgements at Layer 3
-  - Other Layer 3 protocols include ICMP( Internet control message protocol) and IPSec
-  - the IP Header
+## OSI Layer 3 - Network
+
+- The network layer is responsible for routing packets to their destination and for Quality of service
+- IP is the bestknown Layer 3 protocol
+- it is a connectionless protocol with no acknowledgements at Layer 3
+- Other Layer 3 protocols include ICMP( Internet control message protocol) and IPSec
+- the IP Header
 
 - Unicast Traffic: is to a single destination host
 - Broadcast Traffic: is to all hosts on the subnet
